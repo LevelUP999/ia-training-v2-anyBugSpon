@@ -142,7 +142,7 @@ ${JSON.stringify(currentJson, null, 2)}`;
         throw new Error(`HTTP error! status: ${response.status}`);
         setTimeout(() => {
           performTrainingIteration();
-        }, 3000)
+        }, 4500)
       }
 
       const responseText = await response.text();
