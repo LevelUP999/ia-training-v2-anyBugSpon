@@ -40,7 +40,7 @@ const Index = () => {
       // Chama a próxima iteração após um breve intervalo (500ms)
       timeoutRef.current = setTimeout(() => {
         performTrainingIteration();
-      }, 3000);
+      }, 4000);
       console.log(currentTokens);
     }
   }, [currentTokens])
